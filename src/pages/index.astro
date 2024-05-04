@@ -1,0 +1,21 @@
+---
+import MAIN from "./components/_main.vue";
+import '../styles/style.css';
+---
+
+
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Travel Agent</title>
+	</head>
+	<body class="font-Montserrat">
+		<MAIN client:load />
+	</body>
+</html>
